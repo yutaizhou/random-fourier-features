@@ -10,7 +10,6 @@ import numpy as np
 from sklearn.exceptions import NotFittedError
 from sklearn.linear_model import Ridge
 
-
 # -----------------------------------------------------------------------------
 
 

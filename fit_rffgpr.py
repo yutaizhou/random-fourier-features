@@ -7,10 +7,10 @@ http://gregorygundersen.com/blog/2019/12/23/random-fourier-features/
 
 import matplotlib.pyplot as plt
 import numpy as np
-from rffgpr import RFFGaussianProcessRegressor
-from sklearn.gaussian_process.kernels import RBF
 from sklearn.gaussian_process import GaussianProcessRegressor
+from sklearn.gaussian_process.kernels import RBF
 
+from rffgpr import RFFGaussianProcessRegressor
 
 # -----------------------------------------------------------------------------
 

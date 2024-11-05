@@ -7,9 +7,8 @@ http://gregorygundersen.com/blog/2019/12/23/random-fourier-features/
 ============================================================================"""
 
 import numpy as np
-from scipy.spatial.distance import pdist, cdist, squareform
-from scipy.linalg import cholesky, cho_solve
-
+from scipy.linalg import cho_solve, cholesky
+from scipy.spatial.distance import cdist, pdist, squareform
 
 # ------------------------------------------------------------------------------
 
